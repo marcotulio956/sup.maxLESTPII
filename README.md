@@ -1,1 +1,1 @@
-# supmaxLENGSOFT
+# SupMax Gym
