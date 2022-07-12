@@ -1,0 +1,15 @@
+{
+    "_id": {
+        "$oid": "62cce51f99383137164570c0"
+    },
+    "image":"/img/modalidades/musculacao.png",
+  	"prices":{
+  		"week7_month":{"$numberDouble":"125.0"},
+  		"week7_semester":{"$numberDouble":"112.5"},
+  		"week7_anual":{"$numberDouble":"106.25"}
+  	},
+  	"title":"Musculação",
+  	"schedule":{
+  		"seg0000":{"$numberInt":"130"}
+  	}
+}

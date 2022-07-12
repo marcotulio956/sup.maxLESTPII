@@ -1,0 +1,44 @@
+{
+    "_id": {
+        "$oid": "62ccde7bf9c67a78f0ae6be2"
+    },
+    "image":"/img/modalidades/crossfit.png",
+  	"prices":{
+  		"week3_month":{"$numberDouble":"155.0"},
+  		"week3_semester":{"$numberDouble":"139.0"},
+  		"week3_anual":{"$numberDouble":"130.0"}
+  	},
+  	"title":"Crossfit",
+  	"schedule":{
+  		"seg0630":{"$numberInt":"5"},
+  		"seg0830":{"$numberInt":"8"},
+  		"seg1015":{"$numberInt":"13"},
+  		"seg1200":{"$numberInt":"15"},
+  		"seg1800":{"$numberInt":"14"},
+  		"seg2000":{"$numberInt":"12"},
+		"ter0630":{"$numberInt":"5"},
+  		"ter0830":{"$numberInt":"8"},
+  		"ter1015":{"$numberInt":"13"},
+  		"ter1200":{"$numberInt":"15"},
+  		"ter1800":{"$numberInt":"14"},
+  		"ter2000":{"$numberInt":"12"},
+		"qua0630":{"$numberInt":"5"},
+  		"qua0830":{"$numberInt":"8"},
+  		"qua1015":{"$numberInt":"13"},
+  		"qua1200":{"$numberInt":"15"},
+  		"qua1800":{"$numberInt":"14"},
+  		"qua2000":{"$numberInt":"12"},
+  		"qui0830":{"$numberInt":"8"},
+  		"qui1015":{"$numberInt":"13"},
+  		"qui1200":{"$numberInt":"15"},
+  		"qui1800":{"$numberInt":"14"},
+  		"qui2000":{"$numberInt":"12"},
+  		"qui0630":{"$numberInt":"10"},
+		"sex0630":{"$numberInt":"5"},
+  		"sex0800":{"$numberInt":"8"},
+  		"sex1015":{"$numberInt":"13"},
+  		"sex1200":{"$numberInt":"15"},
+  		"sex1800":{"$numberInt":"14"},
+  		"sex2000":{"$numberInt":"12"}
+  	}
+}
