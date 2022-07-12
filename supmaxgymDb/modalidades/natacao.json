@@ -1,0 +1,42 @@
+{
+    "_id": {
+        "$oid": "62cce185f9c67a78f0ae6be5"
+    },
+    "image":"/img/modalidades/natacao.png",
+  	"prices":{
+  		"week2_month":{"$numberDouble":"215.0"},
+  		"week3_month":{"$numberDouble":"229.0"},
+  		"week2_semester":{"$numberDouble":"193.5"},
+  		"week3_semester":{"$numberDouble":"206.1"},
+  		"week2_anual":{"$numberDouble":"185.75"},
+  		"week3_anual":{"$numberDouble":"182.9"}
+  	},
+  	"title":"Natação",
+  	"schedule":{
+  		"seg0800":{"$numberInt":"5"},
+  		"seg1000":{"$numberInt":"8"},
+  		"seg1700":{"$numberInt":"13"},
+  		"seg1900":{"$numberInt":"15"},
+  		"seg2000":{"$numberInt":"14"},
+		"ter0800":{"$numberInt":"5"},
+  		"ter1000":{"$numberInt":"8"},
+  		"ter1700":{"$numberInt":"13"},
+  		"ter1900":{"$numberInt":"15"},
+  		"ter2000":{"$numberInt":"14"},
+		"qua0800":{"$numberInt":"5"},
+  		"qua1000":{"$numberInt":"8"},
+  		"qua1700":{"$numberInt":"13"},
+  		"qua1900":{"$numberInt":"15"},
+  		"qua2000":{"$numberInt":"14"},
+		"qui0800":{"$numberInt":"5"},
+  		"qui1000":{"$numberInt":"8"},
+  		"qui1700":{"$numberInt":"13"},
+  		"qui1900":{"$numberInt":"15"},
+  		"qui2000":{"$numberInt":"14"},
+		"sex0800":{"$numberInt":"5"},
+  		"sex1000":{"$numberInt":"8"},
+  		"sex1700":{"$numberInt":"13"},
+  		"sex1900":{"$numberInt":"15"},
+  		"sex2000":{"$numberInt":"14"}
+  	}
+}

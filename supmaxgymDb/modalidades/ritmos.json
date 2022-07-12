@@ -1,0 +1,24 @@
+{
+    "_id": {
+        "$oid": "62cce365f9c67a78f0ae6be7"
+    },
+    "image":"/img/modalidades/ritmos.png",
+  	"prices":{
+  		"week3_month":{"$numberDouble":"155.0"},
+  		"week3_semester":{"$numberDouble":"139.0"},
+  		"week3_anual":{"$numberDouble":"130.0"}
+  	},
+  	"title":"Ritmos",
+  	"schedule":{
+  		"seg0900":{"$numberInt":"5"},
+  		"seg1700":{"$numberInt":"8"},
+		"ter0900":{"$numberInt":"5"},
+  		"ter1700":{"$numberInt":"8"},
+		"qua0900":{"$numberInt":"5"},
+  		"qua1700":{"$numberInt":"8"},
+		"qui0900":{"$numberInt":"5"},
+  		"qui1700":{"$numberInt":"8"},
+		"sex0900":{"$numberInt":"5"},
+  		"sex1700":{"$numberInt":"8"}
+  	}
+}
