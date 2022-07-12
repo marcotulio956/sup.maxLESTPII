@@ -1,0 +1,22 @@
+.container {
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #faf3f0;
+}
+
+.title {
+    color: #582f25;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
