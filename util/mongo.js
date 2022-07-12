@@ -9,7 +9,7 @@ const client = new MongoClient(url, {
 
 export default async function connect() {
     await client.connect()
-    const db = client.db("supmaxgym")
+    const db = client.db("supmaxgymDb")
 
     return {db, client}
 }
