@@ -9,16 +9,20 @@
    
 }
 
+
 .imgcontainer{
-    height: auto;
-    width: 75%;
-    padding: 15%;
-    align-items: center;
-    position: relative;
-
-
-    
+    display: flex;
+    flex-direction: row; 
 }
+
+#img-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+   }
+
+#img-wrapper > div {
+    flex: 0 1 33%;
+   }
 
 .item {
     flex: 1;
@@ -32,7 +36,7 @@
     margin-top: -20px;
 }
 
-.logo{
+.link{
     cursor: pointer;
 }
 
