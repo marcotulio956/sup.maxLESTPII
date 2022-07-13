@@ -5,7 +5,7 @@ import ListGroup from 'react-bootstrap/ListGroup';
 import Row from 'react-bootstrap/Row';
 import Tab from 'react-bootstrap/Tab';
 import Layout from '../components/Layout'
-import styles from "../styles/Userhome.module.css";
+import styles from "../styles/Userlogin.module.css";
 import Link from "next/link";
 import Image from 'next/image'
 
