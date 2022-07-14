@@ -18,7 +18,7 @@ const Navbar = () => {
             <div className={styles.item}>
                 <div className={styles.cart}>
                     <Link href='/usrlogin'>
-                        <Image src="/img/kettlebell.png" alt="" width="30px" height="30px" />
+                        <Image src="/img/kettlebell_white.png" alt="" width="30px" height="30px" />
                     </Link>
                 </div>
             </div>

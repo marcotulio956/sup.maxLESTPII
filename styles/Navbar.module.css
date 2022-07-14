@@ -1,7 +1,7 @@
 .container {
     height: auto;
     padding: 10px;
-    background-color:black;
+    background-color:#0d0202;
     display: flex;
     align-items: center;
     justify-content: space-between;

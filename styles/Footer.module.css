@@ -1,7 +1,7 @@
 .container {
     height: auto;
     padding: auto;
-    background-color: black;
+    background-color: #030d0d;
     display: flex;
     justify-content: space-between;
 }
