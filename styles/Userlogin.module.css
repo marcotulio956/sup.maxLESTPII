@@ -12,7 +12,7 @@
 .title{
     padding-top: 10px;
     text-align: center;
-    color: #f6a937;
+    color: #ce1812;
     font-family: Poppins;
     font-size: xx-large;
 }
@@ -29,7 +29,7 @@
     margin-top: -20px;
 }
 
-.logo{
+.link{
     cursor: pointer;
 }
 

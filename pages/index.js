@@ -13,36 +13,47 @@ export default function Main() {
     return (
         <Layout> 
             <div className={styles.container} >    
-           <Container>
-            <Row>
-                <Col>
-                <div className={styles.link}>  
-                    <Link href='/'> 
-                        <Image src="/img/modalidades/crossfit.jpg" fluid />
-                    </Link>
-                </div>
-                </Col>
-                <Col>
-                <div className={styles.link}>
-                    <Link href='/'>
-                        <Image src="/img/modalidades/natacao.jpg"  fluid />
-                    </Link>
-                    </div>
-                </Col>
-                <Col>
-                    
-                <div className={styles.link}>  
-                    <Link href='/'>
-                        <Image src="/img/modalidades/ritmos.jpg" fluid  />
-                    </Link>
-                    </div>
-                </Col>
-                </Row >
-            
+           <Container>   
             <Row >
-                <Col > <Image src="/img/modalidades/spinning.jpg" fluid  /> </Col>
-                <Col >  </Col> 
-                <Col > <Image src="/img/modalidades/musculacao.jpg" fluid  /> </Col>  
+                <Col >
+                    <div className={styles.link}>  
+                        <Link href='/'> 
+                            <Image src="/img/modalidades/natacao.jpg" fluid  />
+                        </Link>
+                    </div>
+                </Col>
+                <Col>
+                    <div className={styles.link}>  
+                        <Link href='/'> 
+                            <Image src="/img/modalidades/musculacao.jpg" fluid  /> 
+                        </Link>
+                    </div>
+                </Col>
+                </Row>
+                <row> &nbsp;</row> 
+                <Row>
+                <Col>
+                    <div className={styles.link}>  
+                        <Link href='/'> 
+                            <Image src="/img/modalidades/crossfit.jpg" fluid />
+                        </Link>
+                    </div>
+                </Col>
+                <Col>
+                    <div className={styles.link}>
+                        <Link href='/'>
+                            <Image src="/img/modalidades/spinning.jpg"  fluid />
+                        </Link>
+                    </div>
+                </Col>
+                <Col>                        
+                    <div className={styles.link}>  
+                        <Link href='/'>
+                            <Image src="/img/modalidades/ritmos.jpg" fluid  />
+                        </Link>
+                    </div>
+                </Col>
+                 
             </Row>
             </Container>
             </div> 

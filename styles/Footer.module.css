@@ -1,6 +1,7 @@
 .container {
-    height: 300px;
-    background-color: #131013;
+    height: auto;
+    padding: auto;
+    background-color: black;
     display: flex;
     justify-content: space-between;
 }

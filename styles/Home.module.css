@@ -1,7 +1,7 @@
 .container {
     height: auto;
-    padding: 50px;
-    background-color: #131013;
+    padding: auto;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,7 +12,8 @@
 
 .imgcontainer{
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;  
+    flex-wrap: wrap; 
 }
 
 #img-wrapper {
