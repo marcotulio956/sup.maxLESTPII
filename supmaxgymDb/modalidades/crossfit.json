@@ -2,7 +2,7 @@
     "_id": {
         "$oid": "62ccde7bf9c67a78f0ae6be2"
     },
-    "image":"/img/modalidades/crossfit.png",
+    "image":"/img/modalidades/cross_fit.png",
   	"prices":{
   		"week3_month":{"$numberDouble":"155.0"},
   		"week3_semester":{"$numberDouble":"139.0"},
