@@ -1,8 +1,7 @@
 import axios from "axios";
+import styles from "../../styles/Product.module.css"
 
 const Product = ({ product }) => {
-    const price = product.price.toFixed(2);
-    const id = product._id
 
     return (
         <div className={styles.container}>

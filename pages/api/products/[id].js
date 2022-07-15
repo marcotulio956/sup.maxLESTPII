@@ -11,7 +11,5 @@ export default async function handler(req, res) {
 
     const modalidades = await db.collection("modalidades").findOne({ id: id })
 
-    if(modalidades) {
-        res.status(200).json(modalidades);
-    }
+    res.status(200).json(modalidades);
 }

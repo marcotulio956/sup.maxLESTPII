@@ -2,6 +2,7 @@ import styles from "../styles/ProductList.module.css";
 import ProductCard from "./ProductCard";
 
 const ProductList = ({ productList }) => {
+    console.log(productList);
     return (
         <div>
             <div className={styles.container}>

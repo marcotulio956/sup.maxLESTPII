@@ -3,9 +3,10 @@ import styles from "../styles/ProductCard.module.css";
 import Link from "next/link";
 
 const ProductCard = ({ product }) => {
+    console.log(product);
     return (
         <div className={styles.container}>
-            <Link href={`/product/${product.id}`}>
+            <Link href={`/products/${product._id}`}>
                 <Image src={product.image} width="512" height="340"/>
             </Link>
             <h1 className={styles.title}>{product.title}</h1>
