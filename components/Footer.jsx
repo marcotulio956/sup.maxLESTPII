@@ -29,9 +29,8 @@ const Footer = () => {
                 <div className={styles.card}>
                     <h1 className={styles.title}>HORÁRIOS</h1>
                     <p className={styles.text}>
-                        24 por dia
-                        <br /> 7 dias por semana
-                        <br /> 365 dias por ano
+                       Segunda a Sexta
+                        <br /> 06:30 às 20:00
                     </p>
                     <div className={styles.social}>
                         <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">

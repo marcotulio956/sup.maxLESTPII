@@ -11,6 +11,9 @@ import Link from "next/link";
 import Image from "next/image";
 import LoginForm from '../components/LoginForm.jsx'
 import axios from "axios";
+
+
+
 export default function Userhome() {      
     return (
         <Layout>
@@ -36,9 +39,10 @@ export default function Userhome() {
 }
 
 Userhome.getInitialProps = async () => {
-    const response = await axios.get(
-        "https://sup-max-lestpii.vercel.app/api/users"
-    )
+  const response = await axios.get(
+      "https://sup-max-lestpii.vercel.app/api/users"
+  )
 
-    return { users: response.data }
+  return { users: response.data }
 }
+
