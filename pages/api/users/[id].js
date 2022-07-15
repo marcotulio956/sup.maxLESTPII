@@ -9,9 +9,7 @@ export default async function handler(req, res) {
 
     const { db } = await connect()
 
-    const modalidades = await db.collection("usuarios").findOne({ id: id })
+    const usuarios = await db.collection("usuarios").findOne({ id: id })
 
-    if(modalidades) {
-        res.status(200).json(modalidades);
-    }
+    res.status(200).json(usuarios);
 }
