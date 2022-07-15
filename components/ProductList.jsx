@@ -6,7 +6,6 @@ const ProductList = ({ productList }) => {
         <div>
             <div className={styles.container}>
                 <h1 className={styles.title}>Modalidades</h1>
-                
                 <div className={styles.wrapper}>
                     {productList[0].map((product) => {
                         return (

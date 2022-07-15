@@ -9,7 +9,7 @@ export default async function handler(req, res) {
 
     const { db } = await connect()
 
-    const modalidades = await db.collection("modalidades").findOne({ id: id })
+    const modalidades = await db.collection("usuarios").findOne({ id: id })
 
     if(modalidades) {
         res.status(200).json(modalidades);

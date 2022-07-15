@@ -1,25 +1,31 @@
 import 'bootstrap/dist/css/bootstrap.css';
-import Layout from '../components/Layout'
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import Image from 'react-bootstrap/Image';
 import Container from 'react-bootstrap/Container';
 import axios from "axios";
+import Head from "next/head";
+import Featured from "../components/Featured";
+import ProductList from "../components/ProductList";
+import Layout from '../components/Layout'
+import Footer from '../components/Footer';
+import Navbar from '../components/Navbar';
 
-const Main = ({ productList }) => (
+const Home = ({ productList }) => (
     <div className={styles.container} >    
         <Head>
-            <title>SupMax Gym</title>
+            <title>SupMax</title>
             <meta name="description" content="Descrição da academia" />
             <link rel="icon" href="/public/favicon.ico" />
         </Head>
-        <Layout> 
+        <Navbar/>
+        <Featured/>
         <ProductList productList={productList}/>
-        </Layout>
+        <Footer/>
     </div> 
 );
 
-Main.getInitialProps = async () => {
+Home.getInitialProps = async () => {
     const response = await axios.get(
       "http://localhost:3000/api/products"
     )
@@ -27,4 +33,4 @@ Main.getInitialProps = async () => {
     return { productList: response.data }
   }
   
-  export default Main;
+  export default Home;

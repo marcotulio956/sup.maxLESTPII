@@ -6,7 +6,7 @@ const ProductCard = ({ product }) => {
     return (
         <div className={styles.container}>
             <Link href={`/product/${product.id}`}>
-                <Image src={product.image} fluid />
+                <Image src={product.image} width="512" height="340"/>
             </Link>
             <h1 className={styles.title}>{product.title}</h1>
         </div>

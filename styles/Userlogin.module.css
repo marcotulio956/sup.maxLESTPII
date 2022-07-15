@@ -1,4 +1,12 @@
-.container {
+.title{
+    color: black;
+    font-size: 30px;
+    padding: 30px 10px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    align-items: center;
+}
+/* .container {
     height: auto;
     padding: 50px;
     background-color: #FFF;
@@ -9,13 +17,7 @@
    
 }
 
-.title{
-    padding-top: 10px;
-    text-align: center;
-    color: #ce1812;
-    font-family: Poppins;
-    font-size: xx-large;
-}
+
 
 .item {
     flex: 1;
@@ -53,4 +55,4 @@
     justify-content: center;
     font-weight: bold;
     color: #424242;
-}
+} */
