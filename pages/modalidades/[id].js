@@ -13,7 +13,7 @@ const Product = ({ product }) => {
 
 export const getServerSideProps = async ({ params }) => {
     const res = await axios.get(
-        `http://localhost:3000/supmaxgymDb/${params.id}`
+        `https://sup-max-lestpii.vercel.app/supmaxgymDb/${params.id}`
     );
     return {
         props: {

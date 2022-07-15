@@ -37,7 +37,7 @@ export default function Userhome() {
 
 Userhome.getInitialProps = async () => {
     const response = await axios.get(
-        "http://localhost:3000/api/users"
+        "https://sup-max-lestpii.vercel.app/api/users"
     )
 
     return { users: response.data }

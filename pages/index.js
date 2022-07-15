@@ -27,7 +27,7 @@ const Home = ({ productList }) => (
 
 Home.getInitialProps = async () => {
     const response = await axios.get(
-      "http://localhost:3000/api/products"
+      "https://sup-max-lestpii.vercel.app/api/products"
     )
   
     return { productList: response.data }
